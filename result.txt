@@ -1,0 +1,28 @@
+Computer architecture deals with the design of computers, data storage devices, and networking components that store and run programs, transmit data, and drive interactions between computers, across networks, and with users
+ Computer architects use parallelism and various strategies for memory organization to design computing systems with very high performance
+ Computer architecture requires strong communication between computer scientists and computer engineers, since they both focus fundamentally on hardware design
+At its most fundamental level, a computer consists of a control unit, an arithmetic logic unit (ALU), a memory unit, and input/output (I/O) controllers
+ The control unit fetches data and instructions from memory and uses operations of the ALU to carry out those instructions using that data
+ (The control unit and ALU together are referred to as the central processing unit [CPU]
+) When an input or output instruction is encountered, the control unit transfers the data between the memory and the designated I/O controller
+ The operational speed of the CPU primarily determines the speed of the computer as a whole
+ All of these components—the control unit, the ALU, the memory, and the I/O controllers—are realized with transistor circuits
+Computers host websites composed of HTML and send text messages as simple as
+ Hack into this quiz and let some technology tally your score and reveal the contents to you
+Computers also have another level of memory called a cache, a small, extremely fast (compared with the main memory, or random access memory [RAM]) unit that can be used to store information that is urgently or frequently needed
+ Current research includes cache design and algorithms that can predict what data is likely to be needed next and preload it into the cache for improved performance
+I/O controllers connect the computer to specific input devices (such as keyboards and touch screen displays) for feeding information to the memory, and output devices (such as printers and displays) for transmitting information from the memory to users
+ Additional I/O controllers connect the computer to a network via ports that provide the conduit through which data flows when the computer is connected to the Internet
+Linked to the I/O controllers are secondary storage devices, such as a disk drive, that are slower and have a larger capacity than main or cache memory
+ Disk drives are used for maintaining permanent data
+ They can be either permanently or temporarily attached to the computer in the form of a compact disc (CD), a digital video disc (DVD), or a memory stick (also called a flash drive)
+The operation of a computer, once a program and some data have been loaded into RAM, takes place as follows
+ The first instruction is transferred from RAM into the control unit and interpreted by the hardware circuitry
+ For instance, suppose that the instruction is a string of bits that is the code for LOAD 10
+ This instruction loads the contents of memory location 10 into the ALU
+ The next instruction, say ADD 15, is fetched
+ The control unit then loads the contents of memory location 15 into the ALU and adds it to the number already there
+ Finally, the instruction STORE 20 would store that sum into location 20
+ At this level, the operation of a computer is not much different from that of a pocket calculator
+In general, programs are not just lengthy sequences of LOAD, STORE, and arithmetic operations
+ Most importantly, computer languages include conditional instructions—essentially, rules that say, “If memory location n satisfies condition a, do instruction number x next, otherwise do instruction y
